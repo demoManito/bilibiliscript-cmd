@@ -1,8 +1,6 @@
 package main
 
 import (
-	"log"
-
 	"github.com/demoManito/bilibiliscript/building"
 	"github.com/spf13/cobra"
 )
@@ -35,6 +33,6 @@ func main() {
 	rootCmd.PersistentFlags().StringVarP(&build.Conf.Timing.StartTime, "starttime", "s", "", "bilding start time")
 	rootCmd.PersistentFlags().StringVarP(&build.Conf.Timing.EndTime, "endtime", "e", "", "bilding start time")
 	if err := rootCmd.Execute(); err != nil {
-		log.Fatal(err)
+		panic(err)
 	}
 }
