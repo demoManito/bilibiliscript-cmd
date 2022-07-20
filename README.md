@@ -1,5 +1,5 @@
 ## bilibiliscript cmd
-> (bilibiliscript)[https://github.com/demoManito/bilibiliscript] 项目的命令版本
+> 基于 [bilibiliscript](https://github.com/demoManito/bilibiliscript) 项目的命令行工具
 
 ## 初始化
 进入项目根目录执行命令：`make install`，即可编译完成，如有问题请提 issues
@@ -11,8 +11,8 @@ bs -i <id> -c <cookies> -x <x-csrf>
 ```
 - 定时功能：
   - 参数说明：
-    - -s, --starttime    bilding start time 
-    - -e, --endtime string      bilding start time
+    - -s, --starttime: 盖楼开始时间 
+    - -e, --endtime: 盖楼结束时间
       
   - 案例：  
     ```shell
