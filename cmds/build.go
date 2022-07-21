@@ -31,6 +31,10 @@ func (bc *BuildCmd) Use() string {
 	return "run"
 }
 
+func (bc *BuildCmd) Long() string {
+	return "该功能源码参见：https://github.com/demoManito/bilibiliscript/building (欢迎各位加星)"
+}
+
 func (bc *BuildCmd) Run() core.CmdFunc {
 	return func(cmd *cobra.Command, args []string) {
 		if bc.build.Conf.Timing.EndTime != "" || bc.build.Conf.Timing.StartTime != "" {
