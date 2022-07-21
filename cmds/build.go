@@ -31,6 +31,10 @@ func (bc *BuildCmd) Use() string {
 	return "run"
 }
 
+func (bc *BuildCmd) Short() string {
+	return "启动盖楼脚本"
+}
+
 func (bc *BuildCmd) Long() string {
 	return "该功能源码参见：https://github.com/demoManito/bilibiliscript/building (欢迎各位加星)"
 }

@@ -10,6 +10,7 @@
   3. `source ~/.zshrc` 或 `source ~/.bashrc` 即可编译完成
 
 ## 使用方法
+### 盖楼脚本
 - 默认：
   - 参数说明：
     - -i, --article_id: article business id
@@ -30,5 +31,17 @@
       bs run -i <id> -c <cookies> -x <x-csrf> \
       -s '2022-07-22 18:00:00' -e '2022-07-22 19:00:00'
       ```
+    
+### 楼层信息
+- 参数说明：
+  - -i, --article_id: article business id
+  - -c, --cookie: cookie in request header
+  - -x, --xcsrf: x-csrf in request header
+  - -n, --floor_num: target floor num
+- 例：
+  ```shell
+    bs floor -i <id> -c <cookies> -x <x-csrf> \
+    -n 1000
+    ```
 
 
