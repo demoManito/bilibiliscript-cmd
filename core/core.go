@@ -1,7 +1,6 @@
 package core
 
 import (
-	"fmt"
 	"log"
 
 	"github.com/spf13/cobra"
@@ -24,7 +23,7 @@ type ICommand interface {
 func Register(commands ...ICommand) {
 	for _, command := range commands {
 		if _, ok := commandMap[command.Use()]; ok {
-			log.Println(fmt.Sprintf("%s: is duplicate", command.Use()))
+			log.Printf("%s is duplicate", command.Use())
 		}
 
 		commandMap[command.Use()] = &cobra.Command{
