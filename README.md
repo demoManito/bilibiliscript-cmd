@@ -3,7 +3,7 @@
 
 ## 初始化
 #### (1) 编译好的可执行文件
-  - [编译好的可执行文件下载](https://github.com/demoManito/bilibiliscript-cmd/bin)
+  - [编译好的可执行文件下载](https://github.com/demoManito/bilibiliscript-cmd/tree/master/bin)
 #### (2) 进入项目根目录执行命令
   1. `make install`
   2. 根据提示将路径写入到 `PATH` 中   
