@@ -2,10 +2,12 @@
 > 基于 [bilibiliscript](https://github.com/demoManito/bilibiliscript) 项目的命令行工具
 
 ## 初始化
-进入项目根目录执行命令：
-1. `make install`
-2. 根据提示将路径写入到 `PATH` 中   
-3. `source ~/.zshrc` 或 `source ~/.bashrc` 即可编译完成
+#### (1) 编译好的可执行文件
+  - [编译好的可执行文件下载](https://github.com/demoManito/bilibiliscript-cmd/bin)
+#### (2) 进入项目根目录执行命令
+  1. `make install`
+  2. 根据提示将路径写入到 `PATH` 中   
+  3. `source ~/.zshrc` 或 `source ~/.bashrc` 即可编译完成
 
 ## 使用方法
 - 默认：
