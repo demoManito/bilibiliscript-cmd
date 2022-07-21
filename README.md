@@ -14,9 +14,9 @@
     - -c, --cookie: cookie in request header
     - -x, --xcsrf: x-csrf in request header
   - 例：
-  ```shell
-    bs run -i <id> -c <cookies> -x <x-csrf> 
-    ```
+    ```shell
+      bs run -i <id> -c <cookies> -x <x-csrf> 
+      ```
 - 定时功能：
   - 参数说明：
     - -s, --starttime: 盖楼开始时间 
