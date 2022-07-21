@@ -9,17 +9,22 @@
 
 ## 使用方法
 - 默认：
-```shell
-bs -i <id> -c <cookies> -x <x-csrf> 
-```
+  - 参数说明：
+    - -i, --article_id: article business id
+    - -c, --cookie: cookie in request header
+    - -x, --xcsrf: x-csrf in request header
+  - 例：
+  ```shell
+    bs run -i <id> -c <cookies> -x <x-csrf> 
+    ```
 - 定时功能：
   - 参数说明：
     - -s, --starttime: 盖楼开始时间 
     - -e, --endtime: 盖楼结束时间
       
-  - 案例：  
+  - 例：  
     ```shell
-      bs -i <id> -c <cookies> -x <x-csrf> \
+      bs run -i <id> -c <cookies> -x <x-csrf> \
       -s '2022-07-22 18:00:00' -e '2022-07-22 19:00:00'
       ```
 
