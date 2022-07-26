@@ -1,10 +1,10 @@
 package cmds
 
 import (
-	"github.com/demoManito/bilibiliscript-cmd/core"
-
 	"github.com/demoManito/bilibiliscript/building"
 	"github.com/spf13/cobra"
+
+	"github.com/demoManito/bilibiliscript-cmd/core"
 )
 
 var buildcmd core.ICommand = func() *BuildCmd {
