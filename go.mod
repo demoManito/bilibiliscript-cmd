@@ -3,7 +3,7 @@ module github.com/demoManito/bilibiliscript-cmd
 go 1.17
 
 require (
-	github.com/demoManito/bilibiliscript v1.2.1
+	github.com/demoManito/bilibiliscript v1.2.2
 	github.com/spf13/cobra v1.5.0
 )
 
