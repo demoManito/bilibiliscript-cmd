@@ -1,8 +1,3 @@
-
-[![npm download][download-image]][download-url]
-[download-image]: https://img.shields.io/npm/dm/antd-country-phone-input.svg?style=flat-square
-[download-url]: https://npmjs.org/package/antd-country-phone-input
-
 ## bilibiliscript cmd
 > 基于 [bilibiliscript](https://github.com/demoManito/bilibiliscript) 项目的命令行工具
 
